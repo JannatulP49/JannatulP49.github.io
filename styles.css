@@ -84,3 +84,24 @@ h1{
 .centerabout{
     text-align: center;
 }
+.row{
+    display: flex;
+    justify-content: center;
+    
+    padding: 4px;
+}
+.column{
+    display: flex;
+    justify-content: space-evenly;
+    flex: 50%;
+    padding: 4px;
+}
+.column img{
+    margin-top: 8px;
+    vertical-align: middle;
+    border-style: solid;
+    border-color:rgba(81, 54, 75, 0.384) ;
+    border-width: 14px;
+    border-radius: 20px;
+    box-shadow: 0 6px 20px rgba(30, 16, 18, 0.7);
+}
