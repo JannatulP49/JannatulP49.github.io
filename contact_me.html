@@ -14,6 +14,9 @@
         h1 {color: rgb(153, 120, 109);}
         p{color: #694e4e;
         font-size: larger;}
+        h3{
+          color: #7b564f;
+        }
     </style>
     <h1 class="text-center">CONTACT ME</h1>
     
@@ -27,83 +30,86 @@
         </ul>
      </nav>
      <h1> <u>HOW TO CONTACT ME</u> </h1>
-     
+     <div class="centerabout">
      <h3><u>EMAIL ADDRESS:</u></h3>
-     <p>personal email- prityjannatul49@gmail.com</p>
+     <button class="button-20" role="button">personal email- prityjannatul49@gmail.com</button>
      <br>
-     <h3><u>PHONE NUMBER:</u>
-    
-    </h3>
-     <p>347-388-0605</p>
-     <br>
-     <h3><u>SOCIAL MEDIA:</u></h3>
-     <a href="https://www.linkedin.com/in/jannatul-prity-9065082b1">
-        <button class="button-56" role="button">LINKEDIN - JANNATUL PRITY</button>
-     </a>
-        <br>
-        <h1><u>I TYPICALLY RESPOND WITHIN 24-48 HOURS</u></h1>
-        
-<button class="button-56" role="button">Button 56</button>
-
+     <h3><u>PHONE NUMBER:</u></h3>
+<button class="button-20" role="button">347-388-0605</button>
+    </div>
+     
 <style>
-.button-56 {
-  align-items: center;
-  background-color: #e5bcb6;
-  border: 2px solid #6a4b4b;
-  border-radius: 8px;
+.button-20 {
+  appearance: button;
+  background-color: #f7d3c9;
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, .15), rgba(255, 255, 255, 0));
+  border: 1px solid #7b564f;
+  border-radius: 1rem;
+  box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0 inset,rgba(46, 54, 80, 0.075) 0 1px 1px;
   box-sizing: border-box;
-  color: #5d4242;
+  color: #5d4646;
   cursor: pointer;
-  display: flex;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 30px;
-  height: 48px;
-  justify-content: center;
-  line-height: 24px;
-  max-width: 100%;
-  padding: 0 25px;
-  position: relative;
+  display: inline-block;
+  font-family: Inter,sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 0;
+  padding: .5rem 1rem;
   text-align: center;
-  text-decoration: none;
+  text-transform: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  vertical-align: middle;
 }
 
-.button-56:after {
-  background-color: #7b5454cb;
-  border-radius: 8px;
-  content: "";
-  display: block;
-  height: 48px;
-  left: 0;
-  width: 100%;
-  position: absolute;
-  top: -2px;
-  transform: translate(8px, 8px);
-  transition: transform .2s ease-out;
-  z-index: -1;
-}
-
-.button-56:hover:after {
-  transform: translate(0, 0);
-}
-
-.button-56:active {
-  background-color: #d6a49f;
+.button-20:focus:not(:focus-visible),
+.button-20:focus {
   outline: 0;
 }
 
-.button-56:hover {
-  outline: 0;
+.button-20:hover {
+  background-color: #b7715e76;
+  border-color: #e8b6ac;
 }
 
-@media (min-width: 768px) {
-  .button-56 {
-    padding: 0 40px;
-  }
+.button-20:focus {
+  background-color: #413FC5;
+  border-color: #3E3BBA;
+  box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0 inset, rgba(46, 54, 80, 0.075) 0 1px 1px, rgba(104, 101, 235, 0.5) 0 0 0 .2rem;
 }
-</style>        
-        
+
+.button-20:active {
+  background-color: #3E3BBA;
+  background-image: none;
+  border-color: #3A38AE;
+  box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset;
+}
+
+.button-20:active:focus {
+  box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset, rgba(104, 101, 235, 0.5) 0 0 0 .2rem;
+}
+
+.button-20:disabled {
+  background-image: none;
+  box-shadow: none;
+  opacity: .65;
+  pointer-events: none;
+}
+</style>
+
+<div class="centerabout">
+     <h3><u>SOCIAL MEDIA:</u></h3>
+     <a href="https://www.linkedin.com/in/jannatul-prity-9065082b1">
+      <button class="button-20" role="button">LINKEDIN - JANNATUL PRITY</button>
+     </a>
+        <br>
+        <h1><u>I TYPICALLY RESPOND WITHIN 24-48 HOURS</u></h1>
+      </div>
+      <div>
+        <hr class="thicky">
+    </div>     
 </body>
 </html>
