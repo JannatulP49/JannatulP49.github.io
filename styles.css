@@ -22,9 +22,13 @@ h1{
     text-align: center; 
 
 }
+.navbar{
+    position: sticky;
+    top: 0px;
+}
 .navbar ul{
     list-style-type: none;
-    background-color: rgba(252, 252, 252, 0.384) ;
+    background-color: rgba(228, 215, 215, 0.958) ;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -62,7 +66,7 @@ h1{
 }
 .thicky{
     list-style-type: none;
-    background-color: rgba(252, 252, 252, 0.384) ;
+    background-color: rgb(226, 215, 215) ;
     padding: 2dvh;
     margin: 0px;
     overflow: hidden;
