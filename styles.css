@@ -147,3 +147,13 @@ background-color: rgba(0, 0, 0, 0.221);
     right: 10px;
     padding: 5px;
 }
+.form{  margin-left: 270px;}
+input{
+    color: rgb(192, 149, 137);
+    border-color: rgb(242, 220, 193);
+}
+label{color: rgb(122, 91, 82);}
+
+.star{
+    color: rgb(184, 24, 24);
+}
