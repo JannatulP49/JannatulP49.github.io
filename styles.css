@@ -1,62 +1,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Walter+Turncoat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Concert+One&family=Walter+Turncoat&display=swap');
-body{
+
+body {
     margin: 0px;
 }
-main{
+
+main {
     margin-left: 20px;
     margin-right: 20px;
 }
 
-h1{
+h1 {
     font-family: "Concert One", serif;
 }
-h2{
+
+h2 {
     font-family: "Walter Turncoat", serif;
 }
-body{
+
+body {
     font-family: "Walter Turncoat", serif;
 }
-h1{
-    text-align: center; 
+
+h1 {
+    text-align: center;
 
 }
-.navbar{
+
+.navbar {
     position: sticky;
     top: 0px;
 }
-.navbar ul{
+
+.navbar ul {
     list-style-type: none;
-    background-color: rgba(228, 215, 215, 0.958) ;
+    background-color: rgba(228, 215, 215, 0.958);
     padding: 0px;
     margin: 0px;
     overflow: hidden;
     box-shadow: 0 6px 15px rgba(122, 84, 89, 0.7);
 
-   
+
 }
-.navbar a{
+
+.navbar a {
     color: rgb(153, 120, 109);
     text-decoration: solid;
     padding: 15px;
     display: block;
     text-align: center;
-    
-    
+
+
 }
-.navbar a:hover{
+
+.navbar a:hover {
     background-color: rgba(208, 182, 180, 0.845);
 }
-.navbar li{
+
+.navbar li {
     float: left;
-    
+
 }
-.text-center{
+
+.text-center {
     text-align: center;
     list-style-type: none;
     display: inline-block;
-    background-color: rgba(252, 252, 252, 0.384) ;
+    background-color: rgba(252, 252, 252, 0.384);
     padding: 20px;
     margin: 20px;
     border-radius: 70%;
@@ -64,53 +75,61 @@ h1{
     box-shadow: 0 6px 15px rgba(122, 84, 89, 0.7);
 
 }
-.thicky{
+
+.thicky {
     list-style-type: none;
-    background-color: rgb(226, 215, 215) ;
-    padding: 2dvh;
+    background-color: rgb(226, 215, 215);
+    padding: 15px;
     margin: 0px;
     overflow: hidden;
-    box-shadow: 0 6px 15px rgba(122, 84, 89, 0.7)  
+    box-shadow: 0 6px 15px rgba(122, 84, 89, 0.7)
 }
-.borderpic{
+
+.borderpic {
     border-style: solid;
-    border-color:rgba(118, 86, 86, 0.384) ;
+    border-color: rgba(118, 86, 86, 0.384);
     border-width: 14px;
     border-radius: 20%;
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: 0 6px 20px rgba(63, 34, 38, 0.7);
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 6px 20px rgba(63, 34, 38, 0.7);
 }
-.header49{
+
+.header49 {
     text-align: center;
 }
-.centerabout{
+
+.centerabout {
     text-align: center;
 }
-.row{
+
+.row {
     display: flex;
     justify-content: center;
     padding: 4px;
 }
-.column{
+
+.column {
     display: flex;
     justify-content: space-evenly;
     flex: 50%;
     padding: 4px;
 }
-.column img{
+
+.column img {
     margin-top: 8px;
     vertical-align: middle;
     border-style: solid;
-    border-color:rgba(81, 54, 75, 0.384) ;
+    border-color: rgba(81, 54, 75, 0.384);
     border-width: 14px;
     border-radius: 20px;
     box-shadow: 0 6px 20px rgba(30, 16, 18, 0.7);
 }
-.linkwork{
+
+.linkwork {
     border-style: solid;
-    border-color:rgba(63, 46, 59, 0.384) ;
+    border-color: rgba(63, 46, 59, 0.384);
     border-width: 14px;
     border-radius: 20px;
     box-shadow: 0 6px 20px rgba(30, 16, 18, 0.7);
@@ -123,15 +142,16 @@ h1{
 
 
 
-#heading{
+#heading {
     display: flex;
     justify-content: space-between;
 }
-.circle{
+
+.circle {
     text-align: center;
     list-style-type: none;
     display: inline-block;
-    background-color: rgba(252, 252, 252, 0.384) ;
+    background-color: rgba(252, 252, 252, 0.384);
     padding: 20px;
     margin: 20px;
     border-radius: 70%;
@@ -139,21 +159,55 @@ h1{
     box-shadow: 0 6px 15px rgba(122, 84, 89, 0.7);
 
 }
-.position{
+
+.position {
     border-radius: 90px;
-background-color: rgba(0, 0, 0, 0.221);
+    background-color: rgba(0, 0, 0, 0.221);
     position: fixed;
     bottom: 0px;
     right: 10px;
     padding: 5px;
 }
-.form{  margin-left: 270px;}
-input{
+
+.form {
+    margin-left: 270px;
+}
+
+input {
     color: rgb(192, 149, 137);
     border-color: rgb(242, 220, 193);
 }
-label{color: rgb(122, 91, 82);}
 
-.star{
+label {
+    color: rgb(122, 91, 82);
+}
+
+.star {
     color: rgb(184, 24, 24);
+}
+
+.icon {
+    color: rgb(125, 84, 60);
+}
+
+.icon:hover {
+    background-color: #9c6a5c76;
+    border-color: #f4c1b6;
+}
+
+.icon:focus {
+    background-color: #ca9c83;
+    border-color: #cd927a;
+    box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0 inset, rgba(46, 54, 80, 0.075) 0 1px 1px, rgba(104, 101, 235, 0.5) 0 0 0 .2rem;
+}
+
+.icon:active {
+    background-color: #91533b81;
+    background-image: none;
+    border-color: #c59577;
+    box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset;
+}
+
+.icon:active:focus {
+    box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset, rgba(104, 101, 235, 0.5) 0 0 0 .2rem;
 }
