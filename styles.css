@@ -238,6 +238,24 @@ label {
     width: calc(100% - 20px);
 }
 #shape img{
+    width: 210px;
+}
+#shape2 img{
+    width: 210px;
+}
+#shape3 img{
+    width: 210px;
+}
+#shape4 img{
+    width: 210px;
+}
+#shape5 img{
+    width: 106px;
+}
+#shape6 img{
+    width: 200px;
+}
+#shape7 img{
     width: 200px;
 }
 }
