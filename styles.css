@@ -171,7 +171,7 @@ h1 {
 }
 
 .form {
-    margin-left: 270px;
+    text-align: center;
 }
 
 input {
@@ -220,7 +220,7 @@ label {
     }
     
 .form{
-   margin-left: 40px;
+   text-align: center;
 }
 .position img { width: 70px;
 }
